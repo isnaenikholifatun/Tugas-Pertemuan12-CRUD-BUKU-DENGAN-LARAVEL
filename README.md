@@ -34,8 +34,8 @@
 ---
 
 **StoreBukuRequest**
-#### Untuk memvalidasi data saat `create` buku baru
-#### Validasi yang diterapkan:
+Untuk memvalidasi data saat `create` buku baru
+Validasi yang diterapkan:
 * Kode buku wajib diisi
 * Kode buku harus unik
 * Kategori harus valid
@@ -44,7 +44,7 @@
 * Tahun terbit harus valid
 
 **UpdateBukuRequest:**
-#### Validasi untuk data saat `edit` buku
+Validasi untuk data saat `edit` buku
 
 **Custom Rule KodeBukuFormat**
 Format kode buku:
@@ -61,10 +61,10 @@ Contoh:
 ![1.Input Tidak Valid](screenshots/TidakValid.png)
 
 #### 2. Validasi - Data Input Valid
-![2.Data Valid](screenshots/Valid.jpeg)
+![2.Data Valid](screenshots/Valid.png)
 
 #### 3. Hasil Validasi - Input Valid
-![3.Hasil Valid](screenshots/HasilInputValid.jpeg)
+![3.Hasil Valid](screenshots/HasilInputValid.png)
 
 ---
 
@@ -77,7 +77,7 @@ Contoh:
 * Hapus banyak data sekaligus
 
 #### Tampilan Bulk Delete:
-Fitur ini memudahkan pengguna untuk memilih banyak buku kemudian mengapus dalam satu fitur itu hapus semua jadi mudah tidak perlu satu-satu.
+* Fitur ini memudahkan pengguna untuk memilih banyak buku kemudian mengapus dalam satu fitur itu hapus semua jadi mudah tidak perlu satu-satu.
 ---
 
 **Hasil Bulk Delete:**
