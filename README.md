@@ -33,7 +33,7 @@
 **Komponen Yang Dibuat:**
 ---
 
-**StoreBukuRequest**
+**StoreBukuRequest:**
 Untuk memvalidasi data saat `create` buku baru
 Validasi yang diterapkan:
 * Kode buku wajib diisi
@@ -46,7 +46,7 @@ Validasi yang diterapkan:
 **UpdateBukuRequest:**
 Validasi untuk data saat `edit` buku
 
-**Custom Rule KodeBukuFormat**
+**Custom Rule KodeBukuFormat:**
 Format kode buku:
 `BK-XXX-000`
 Contoh:
